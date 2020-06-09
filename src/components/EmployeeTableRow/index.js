@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 function EmployeeTableRow(props) {
-    console.log(props)
-    const user = props.user
+    console.log(props);
+    const user = props.user;
 
     return(
         <tr key ={user.login.uuid}>
@@ -10,7 +10,7 @@ function EmployeeTableRow(props) {
             <td className="userName"><p>{user.name.first} {user.name.last}</p></td>
             <td className="userLogin"><p>{user.login.username}</p></td>
         </tr>
-    )
+    );
 }
 
 export default EmployeeTableRow;

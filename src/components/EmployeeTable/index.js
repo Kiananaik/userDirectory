@@ -1,5 +1,5 @@
-import React from "react"
-import Employees from "../Employees/index"
+import React from "react";
+import Employees from "../Employees/index";
 
 
 function EmployeeTable() {
