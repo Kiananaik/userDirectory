@@ -4,7 +4,7 @@ import EmployeeTableRow from "../EmployeeTableRow/index"
 
 function Employees() {
     const [users, setUsers] = useState([])
-    // const [error, setError] = useState("")
+    const [error, setError] = useState("")
     // const [search, setSearch] = useState()
 
     useEffect(() => {
